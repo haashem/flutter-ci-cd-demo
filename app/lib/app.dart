@@ -13,7 +13,7 @@ class FlutterDemo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter CI/CD demo app',
+      title: 'Flutter CI/CD demo',
       theme: lightTheme,
       home: HomePage(env: env),
     );
